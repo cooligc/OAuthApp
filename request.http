@@ -1,0 +1,15 @@
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username":"app",
+  "password":"app"
+}
+
+
+###
+
+GET http://localhost:8080/api/heartbeat
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcHAiLCJleHAiOjE2NjAyNzIyNDQsImlhdCI6MTY2MDIzNjI0NH0.tJ1RAehc8pIUCfeYw6DQJFqdmQS4psmO3nkyY6N6k0Y
+
+
